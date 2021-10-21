@@ -1,0 +1,16 @@
+doctype html 
+html 
+    head 
+        title S - for short
+        link(rel="stylesheet", href="style.css")
+    body 
+        h1.page_title S
+        h2.page_desc The Decentralized URL Shortener 
+        br
+        form(action="/s", method="post") 
+            div.entry 
+                label(for = 'link') URL: 
+                input(name = "link" type="url")
+            br
+            button(type="submit") Shorten!
+            

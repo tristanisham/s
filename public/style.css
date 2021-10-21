@@ -1,0 +1,18 @@
+.page_title {
+    text-align: center;
+    font-size: 10em;
+    
+}
+
+.page_desc {
+    margin-top: -5em;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+form .entry {
+    width: 100%;
+}
